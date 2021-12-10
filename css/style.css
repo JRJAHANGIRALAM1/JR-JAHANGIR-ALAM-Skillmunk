@@ -1,0 +1,520 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+.containe{
+	width: 1140px;
+	margin: auto;
+} 
+a{
+	text-decoration: none;
+}
+/****************
+header section css
+******************/
+.ph img{
+	width: 5%;
+	height:auto;
+	border-radius: 20%;
+	position: fixed;
+	left: 10px;
+	bottom:20px;
+}
+.all-01{
+	background-color: blue;
+	display: flex;
+	justify-content:space-between;
+	padding: 20px 0px;
+	margin-right: -110px;
+	margin-left: -110px;
+}
+.logo img{
+	width: 170px;
+	height: auto;
+	margin-right: 35px;
+	margin-left: 110px;
+}
+.logo ul li{
+	display: inline-block; 
+	line-height:2.7;
+	margin: 0px 20px;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 16px;
+	font-weight: 700;
+}
+.logo ul li a{
+	display: flex;
+	
+}
+.logo{
+	display: flex;
+
+} 
+ 
+.header{
+	width: 100%;
+	height: auto;
+	margin-bottom: 140px;
+}
+.a1 h1{
+	font-size: 60px;
+	font-family: 'Open Sans', sans-serif;
+	color: #d2ee0f;
+	margin-top: 180px;
+	margin-bottom: 20px;
+}
+.a1 p{
+	font-size: 20px;
+	font-family: 'Open Sans', sans-serif;
+	padding: 5px;
+	color: #d2ee0f;
+}
+body {
+	height: 100vh;
+	width: 100%;
+	background: url(../img/new-years-2022.jpg);
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+
+
+/**************
+Section menu-1.2
+****************/
+
+.ab h1{
+	text-align: center;
+	font-size: 40px;
+	font-family: 'Open Sans', sans-serif;
+	margin-top: 60px;
+	margin-bottom: 60px;
+}
+.jr p{
+	padding: 5px;
+	font-size: 20px;
+	font-family: 'Open Sans', sans-serif;
+}
+.j-1 img,.j-2 img,.j-3 img{
+	width: 100%;
+	height: auto;
+	margin-top: 10px;
+	margin-right: 10px;
+}
+.j-1,.j-2,.j-3{
+	flex-basis: 33%;
+	margin-left: 20px;
+	margin-top: 20px;
+}
+.all-1{
+	display: inline-block;
+	display: flex;
+}
+h2 {
+	display: inline-block;
+	background-color: #3ccc14;
+	border-radius: 5px;
+	font-size: 16px;
+	font-family: 'Open Sans', sans-serif;
+	margin-top: 20px;
+	margin-left: 10px;
+	padding: 5px;
+	position: relative;
+}
+
+
+
+
+.icone-1 ul li a i {
+	position: relative;
+}
+.icone-1 ul li a i::before{
+	position: absolute;
+	content: 'hi';
+	top: 0;
+	left: 0;
+}
+
+
+
+
+/**************
+Section menu-2
+****************/
+.ja h3,.ja1 h3,.ja2 h3{
+	font-size: 24px;
+	font-family: 'Open Sans', sans-serif;
+	padding: 20px;
+	margin-top: 20px;
+	margin-left: -100px;
+	transition: 0.5s;
+}
+.ja h3:hover,.ja1 h3:hover,.ja2 h3:hover{
+	color: red;
+	transition: 0.5s;
+}
+.ja h4,.ja1 h4,.ja2 h4{
+	font-size: 16px;
+	font-family: 'Open Sans', sans-serif;
+	margin-top: 10px;
+	margin-left: 10px;
+	margin-bottom: 20px;
+}
+.ja2 h3{
+	margin-left: -30px;
+}
+.r-1 img,.r-2 img,.r-3 img{
+	width: 100%;
+	height: auto;
+}
+.menu-2{
+	width:100%;
+	margin: auto;
+	margin-top: 20px;
+}
+.r-1,.r-2,.r-3{
+	flex-basis: 33%;
+	margin-bottom: 0px;
+	margin-top: -20px;
+}
+.all-2{
+	display: inline-block;
+	display: flex;
+} 
+.h{
+	text-align: center;
+	padding: 20px 0px;
+	font-size: 24px;
+	font-family: 'Open Sans', sans-serif;
+}
+h3 {
+	text-align: center;
+	font-size: 30px;
+	font-family: 'Open Sans', sans-serif;
+	padding: 20px;
+}
+.r-1 p,.r-2 p,.r-3 p{
+	font-size: 20px;
+	font-family: 'Open Sans', sans-serif;
+	text-align: center;
+	padding: 5px;
+}
+.menu-3{
+	background-color: #fbb2ec;
+	width: 100%;
+	margin: auto;
+}
+
+
+/*************
+Section menu-4
+**************/
+
+.menu-4{
+	width: 100%;
+	padding: 20px 0px;
+}
+.pat1 {
+	font-size: 40px;
+	line-height: 40px;
+	font-family: 'Open Sans', sans-serif;
+	text-align: center;
+}
+.pat1 p{
+	font-size: 20px;
+	font-family: 'Open Sans', sans-serif;
+	text-align: center;
+}
+
+/*******************
+Section menu-5.6 & 7
+********************/
+
+.menu-5,..menu-6,.menu-7,.menu-8{
+	width: 100%;
+	padding: 20px 20px;
+}
+.pat2,.pat4 ,.pat3{
+	width: 100%;
+	padding: 0px 0px;
+	display: inline-block;
+	display: flex;
+	justify-content: space-between;
+}
+.left1,.left3{
+	font-size: 40px;
+	line-height: 50px;
+	font-family: 'Open Sans', sans-serif;
+	margin-left: 100px;
+	margin-top: 100px;
+}
+.right2 {
+	font-size: 40px;
+	line-height: 50px;
+	font-family: 'Open Sans', sans-serif;
+	margin-right: 100px;
+	margin-top: 100px;
+}
+.left1 p,.left3 p,.right2 p{
+	font-size: 20px;
+	line-height: 25px;
+	font-family: 'Open Sans', sans-serif;
+}
+.right1 img,.right3 img,.left2 img{
+	width: 100%;
+	height: auto;
+}
+.right1,.right3,.left2{
+	flex-basis: 50%;
+	margin-bottom: 0px;
+}
+.pat-a1{
+	font-size: 40px;
+	line-height: 40px;
+	margin-top: 70px;
+	font-family: 'Open Sans', sans-serif;
+	text-align: center;
+}
+
+/**************
+Section menu-8
+****************/
+
+.a{
+	width: 100%;
+	padding: 20px 20px;
+}
+.pat-a2 {
+	flex-basis: 33%;
+	margin-bottom: 0px;
+	margin-top: 20px;
+	display: flex;
+	justify-content: center;
+}
+.a01 p,.a02 p,.a03 p{
+	font-size: 20px;
+	line-height: 25px;
+	margin-top: 10px;
+	margin-bottom: 30px;
+	font-family: 'Open Sans', sans-serif;
+	margin-right: 20px;
+	margin-left: 20px;
+}
+.a01 h1,.a02 h1,.a03 h1{
+	font-size: 20px;
+	margin-top: 10px;
+	margin-bottom: 30px;
+	font-family: 'Open Sans', sans-serif;
+	margin-right: 50px;
+	margin-left: 50px;
+	text-align: center;
+}
+.pat-a1 p{
+	font-size: 20px;
+	line-height: 10px;
+	margin-top: 30px;
+	margin-bottom: 30px;
+	font-family: 'Open Sans', sans-serif;
+	text-align: center;
+}
+.a01 img,.a02 img,.a03 img{
+	width: 30%;
+	height: 100px;
+	border-radius: 50%;
+	margin-top: 80px;
+	margin-bottom: 30px;
+	margin-left: 120px;
+
+}
+.pat-a3{
+	font-size: 40px;
+	line-height: 40px;
+	margin-top: 70px;
+	font-family: 'Open Sans', sans-serif;
+	text-align: center;
+}
+.pat-a3 p{
+	font-size: 20px;
+	margin-top: 20px;
+	font-family: 'Open Sans', sans-serif;
+	text-align: center;
+}
+
+/**************
+Section menu-8
+****************/
+
+.menu-9{
+	width: 100%
+	padding:0px;
+	background: #fb0dec;
+	padding: 100px 100px 20px 100px;
+}
+.b01 img{
+	width: 20%;
+	height:50px;
+	margin-right: 40px;
+	padding-top: 20px;
+}
+.b02 ul li{
+	list-style: none;
+	display: inline-block;
+	text-align: center;
+
+}
+.pat-b{
+	display: flex;
+	justify-content: space-between;
+	margin-top: 50px;
+	
+}
+.pat-ba{
+	display: flex;
+	justify-content: space-between;
+	list-style: none;
+	flex-basis: 33%;
+}
+
+.b1 p{
+	font-size: 20px;
+	margin-right: 200px;
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+h6{
+	font-size: 40px;
+	margin-right: 100px;
+}
+.b2 ul li{
+	list-style: none;
+	font-size: 20px;
+}
+.b3 ul li {
+	list-style: none;
+	font-size: 20px;
+}
+
+.b01 ul li{
+	font-size: 16px;
+	display: flex;
+	padding: 20px;
+	padding-top: 40px;
+	display: inline-block;
+	margin-right: 
+
+}
+.b01 {
+	display: flex;
+
+
+
+}
+.b1 form{
+	margin-top: 20px;
+}
+.b1 form .fr{
+	padding: 18px 15px;
+	width: 40%;
+}
+.b1 form .fr:focus{
+	outline: none;
+	border-color: blue;
+}
+.b1 form .f{
+	color: white;
+	background: linear-gradient(to right,red,blue);
+	font-size:20px;
+	padding: 15px 25px;
+	border: none;
+	text-transform: uppercase;
+}
+/****************
+btn Section 1,2,3
+*****************/
+
+
+.menu-btn3 button{
+	margin-top: 30px;
+	background-color: #1ad514;
+	color: white;
+	padding: 10px 20px;
+	border: none;
+	border-radius: 8px;
+	font-size: 20px;
+	font-family: 'Open Sans', sans-serif;
+	margin-left: 480px;
+	margin-bottom: 20px;
+	transition: 0.5s;
+}
+.menu-btn2 button{
+	margin-top: 30px;
+	background-color:#1ad514;
+	color: white;
+	padding: 8px 25px;
+	border: none;
+	border-radius: 8px;
+	font-size: 20px;
+	font-family: 'Open Sans', sans-serif;
+	margin-left: 470px;
+	margin-bottom: 20px;
+	transition: 0.5s;
+}
+.btn-1 button{
+	margin-bottom:80px;
+	margin-top: 80px;
+	background-color:#1ad514;
+	color: white;
+	padding: 10px 20px;
+	border: none;
+	border-radius: 8px;
+	font-size: 20px;
+	font-family: 'Open Sans', sans-serif;
+	transition: 0.5s;
+}
+.btn button{
+	background-color: #1ad514;
+	color: white;
+	border: none;
+	border-radius: 8px;
+	font-size: 25px;
+	font-family: 'Open Sans', sans-serif;
+	transition: 0.5s;
+	margin-right:  110px;
+	padding: 0px 25px;
+	
+}
+.btn4 button{
+	margin-top: 20px;
+	background-color:#1ad514;
+	color: white;
+	padding: 8px 25px;
+	border: none;
+	border-radius: 8px;
+	font-size: 20px;
+	font-family: 'Open Sans', sans-serif;
+	text-align: center;
+	margin-bottom: 40px;
+	transition: 0.5s;
+}
+.menu-btn3 button:hover,.menu-btn2 button:hover,.btn-1 button:hover,.btn4 button:hover,.btn button:hover{
+	color: red;
+	transform: scale(1.1);
+	transition: 0.5s;
+}
+
+/*************
+Section icons
+**************/
+
+.icons-1 ul li {
+	display: inline-block;
+	list-style: none;
+}
+.icons-1 ul li a i{
+	height: 40px;
+	width: 40px;
+	background-color:#06f262;
+	color: white;
+	line-height: 40px;
+	font-size: 30px;
+}
